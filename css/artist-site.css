@@ -18,7 +18,7 @@
    *, *:before, *:after {
      box-sizing: inherit;
    }
-   
+
     /* global styles 
    ------------------- */ 
    body {
@@ -110,9 +110,6 @@
       width: 25%;
     }
 
-    /* about 
-    Use button and hover selectors to stylise this */ 
-
     section.about article p {
       width: 25%;
     }
@@ -120,31 +117,27 @@
     /* the well */ 
 
     section.the-well p { 
-      /* display: inline-block; */
-      display: none; /* temporary */ 
+      display: inline-block;
       position: relative;
-      left: 50%;
+      left: 75%;
       width: 30%;
     }
 
     section.the-well a iframe {
-      display: inline-block; 
+      display: none; /* temp */ 
       position: relative; 
       width: 60%;
       margin: 0 40px;
     }
 
-    /* Nav font too big? */ 
-
     /* cv */
 
     section ul {
       list-style: none;
-      }
-      
-    section article ul li h4 { 
-      margin: 0;
       padding: 0;
+      }
+
+    section article ul li h4 { 
       display: inline;
       position: relative;
       top: 40px;
@@ -153,16 +146,11 @@
     }
 
     section article ul li ul li p { 
-      display: inline;
-      position: relative;
-      margin-left: 0;
-      padding-left: 0;
-      border: 0;
       line-height: 4em;
     }
 
     .cv-section {
-      margin-bottom: 5px; /* Spaces out cv nicely */ 
+      margin-bottom: 10px; /* Spaces out cv by headings nicely */ 
     }
 
 
