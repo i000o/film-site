@@ -1,0 +1,169 @@
+   /* @import url("https://use.typekit.net/gyn7rht.css");  */
+   @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+      /* colour palette 
+   ---------------------
+   #B9D2E8  Spindle - rgb(185,210,232) bluey hue 
+   #262C37 Ebony Clay - rgb(38,44,55) almost black 
+   #88848C Mamba - rgb(136,132,140) accent colour
+   #969599 Mountain Mist - rgb(150,149,153) grey
+   rgb(215, 233, 253); - almost white 
+   */
+
+   /* BOX-MODEL FIX 
+   ------------------- */
+   html {
+     box-sizing: border-box;
+   }
+   *, *:before, *:after {
+     box-sizing: inherit;
+   }
+   
+    /* global styles 
+   ------------------- */ 
+   body {
+    font-family: inter, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 2em;
+    color: rgba(38,44,55); 
+    margin: 35px;
+    padding: 0;
+    background-color: white;
+   }
+
+   a:link {
+    color: rgb(38,44,55);
+   }
+
+   a:visited { 
+    color: rgba(38,44,55, 60%);
+   }
+
+  section article p {  
+    display: inline;
+    position: relative;
+    width: 100%;
+    top: 40px;
+    left: 260px;
+    color: rgb(38,44,55);
+    font-weight: 500;
+    line-height: 2.5em;
+    font-size: 1.1em;
+  }
+
+    /* header */ 
+
+    header { 
+      color: rgba(38,44,55, 60%);
+     }
+
+    h1 { 
+      font-size: 2em;
+      font-weight: 600;
+    }
+
+    h2 { 
+      font-size: 1.5em;
+      font-weight: 600;
+    }
+
+    h3, h4 { 
+      font-size: 1.1em;
+      font-weight: 600;
+    }
+
+    /* nav */ 
+
+   aside nav {
+    display: block;
+    position: fixed;
+    padding-top: 25px; 
+    margin-left: 0;
+    width: 20%;
+   } 
+
+   nav ul { 
+    list-style: none; /* No bullet points in nav menu */ 
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 1.1em;
+   }
+
+   nav ul li a { 
+    display: inline-block;
+    text-decoration: none; /* I took the underlines off when clicked */ 
+    margin: 5px 0;
+   }
+
+   nav ul li.instagram {
+    margin-top: 390px; /* Creates big space between IG and the rest of the list */ 
+    margin-bottom: 0;
+   }
+
+   nav ul li.the-well {
+    padding-left: 15px;
+    margin: -5px;
+   }
+
+    section.whats-underneath article p { 
+      width: 25%;
+    }
+
+    section.about article p {
+      width: 25%;
+    }
+
+    /* the well */ 
+
+    section.the-well p { 
+      display: inline-block;
+      position: relative;
+      left: 75%;
+      width: 30%;
+    }
+
+    section.the-well a iframe {
+      display: none; /* temp */ 
+      position: relative; 
+      width: 60%;
+      margin: 0 40px;
+    }
+
+    /* cv */
+
+    section ul {
+      list-style: none;
+      padding: 0;
+      }
+      
+    section article ul li h4 { 
+      display: inline;
+      position: relative;
+      top: 40px;
+      left: 260px;
+      line-height: 2em;
+    }
+
+    section article ul li ul li p { 
+      line-height: 4em;
+    }
+
+    .cv-section {
+      margin-bottom: 10px; /* Spaces out cv by headings nicely */ 
+    }
+
+
+    /* IG link  */ 
+
+    /* footer */
+
+    footer p {
+      display: block;
+      position: fixed;
+      color: rgba(38,44,55, 40%);
+      font-weight: 500;
+      line-height: 2em;
+      font-size: 1.1em;
+      bottom: 5px;
+    }
