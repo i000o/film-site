@@ -18,11 +18,7 @@
    *, *:before, *:after {
      box-sizing: inherit;
    }
-<<<<<<< HEAD
-
-=======
    
->>>>>>> development
     /* global styles 
    ------------------- */ 
    body {
@@ -140,11 +136,7 @@
       list-style: none;
       padding: 0;
       }
-<<<<<<< HEAD
-
-=======
       
->>>>>>> development
     section article ul li h4 { 
       display: inline;
       position: relative;
@@ -160,7 +152,6 @@
     .cv-section {
       margin-bottom: 10px; /* Spaces out cv by headings nicely */ 
     }
-
 
     /* IG link  */ 
 
